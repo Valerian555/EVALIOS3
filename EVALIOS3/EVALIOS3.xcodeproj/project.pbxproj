@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22AB4542A9CE69E00BDAE96 /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22AB4532A9CE69E00BDAE96 /* DetailsTableViewCell.xib */; };
+		F2881B1C2A9CB97A00B88A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B1B2A9CB97A00B88A59 /* AppDelegate.swift */; };
+		F2881B1E2A9CB97A00B88A59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B1D2A9CB97A00B88A59 /* SceneDelegate.swift */; };
+		F2881B202A9CB97A00B88A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B1F2A9CB97A00B88A59 /* ViewController.swift */; };
+		F2881B232A9CB97A00B88A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2881B212A9CB97A00B88A59 /* Main.storyboard */; };
+		F2881B252A9CB97B00B88A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2881B242A9CB97B00B88A59 /* Assets.xcassets */; };
+		F2881B282A9CB97B00B88A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2881B262A9CB97B00B88A59 /* LaunchScreen.storyboard */; };
+		F2881B312A9CBA0600B88A59 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B2F2A9CBA0600B88A59 /* CryptoTableViewCell.swift */; };
+		F2881B322A9CBA0600B88A59 /* CryptoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2881B302A9CBA0600B88A59 /* CryptoTableViewCell.xib */; };
+		F2881B352A9CBE1D00B88A59 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F2881B342A9CBE1D00B88A59 /* Alamofire */; };
+		F2881B372A9CBF1400B88A59 /* CryptoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B362A9CBF1400B88A59 /* CryptoResponse.swift */; };
+		F2881B392A9CCCDC00B88A59 /* CryptoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B382A9CCCDC00B88A59 /* CryptoDetailsViewController.swift */; };
+		F2881B3C2A9CD13900B88A59 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B3A2A9CD13900B88A59 /* DetailsTableViewCell.swift */; };
+		F2881B3F2A9CD28F00B88A59 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B3E2A9CD28F00B88A59 /* Utilities.swift */; };
+		F2881B442A9CDEDA00B88A59 /* CryptoImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B422A9CDEDA00B88A59 /* CryptoImageTableViewCell.swift */; };
+		F2881B452A9CDEDA00B88A59 /* CryptoImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2881B432A9CDEDA00B88A59 /* CryptoImageTableViewCell.xib */; };
+		F2881B472A9CDEFA00B88A59 /* CryptoImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2881B462A9CDEFA00B88A59 /* CryptoImageViewController.swift */; };
+		F2881B4A2A9CE1B300B88A59 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = F2881B492A9CE1B300B88A59 /* AlamofireImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F22AB4532A9CE69E00BDAE96 /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		F2881B182A9CB97A00B88A59 /* EVALIOS3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVALIOS3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2881B1B2A9CB97A00B88A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2881B1D2A9CB97A00B88A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2881B1F2A9CB97A00B88A59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2881B222A9CB97A00B88A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2881B242A9CB97B00B88A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2881B272A9CB97B00B88A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2881B292A9CB97B00B88A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2881B2F2A9CBA0600B88A59 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		F2881B302A9CBA0600B88A59 /* CryptoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoTableViewCell.xib; sourceTree = "<group>"; };
+		F2881B362A9CBF1400B88A59 /* CryptoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoResponse.swift; sourceTree = "<group>"; };
+		F2881B382A9CCCDC00B88A59 /* CryptoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsViewController.swift; sourceTree = "<group>"; };
+		F2881B3A2A9CD13900B88A59 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F2881B3E2A9CD28F00B88A59 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F2881B422A9CDEDA00B88A59 /* CryptoImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoImageTableViewCell.swift; sourceTree = "<group>"; };
+		F2881B432A9CDEDA00B88A59 /* CryptoImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoImageTableViewCell.xib; sourceTree = "<group>"; };
+		F2881B462A9CDEFA00B88A59 /* CryptoImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2881B152A9CB97A00B88A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2881B352A9CBE1D00B88A59 /* Alamofire in Frameworks */,
+				F2881B4A2A9CE1B300B88A59 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22AB4552A9CE70700BDAE96 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				F2881B362A9CBF1400B88A59 /* CryptoResponse.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		F22AB4572A9CEB5B00BDAE96 /* CryptoImage */ = {
+			isa = PBXGroup;
+			children = (
+				F2881B462A9CDEFA00B88A59 /* CryptoImageViewController.swift */,
+				F2881B422A9CDEDA00B88A59 /* CryptoImageTableViewCell.swift */,
+				F2881B432A9CDEDA00B88A59 /* CryptoImageTableViewCell.xib */,
+			);
+			path = CryptoImage;
+			sourceTree = "<group>";
+		};
+		F2881B0F2A9CB97A00B88A59 = {
+			isa = PBXGroup;
+			children = (
+				F2881B1A2A9CB97A00B88A59 /* EVALIOS3 */,
+				F2881B192A9CB97A00B88A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2881B192A9CB97A00B88A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2881B182A9CB97A00B88A59 /* EVALIOS3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2881B1A2A9CB97A00B88A59 /* EVALIOS3 */ = {
+			isa = PBXGroup;
+			children = (
+				F22AB4572A9CEB5B00BDAE96 /* CryptoImage */,
+				F22AB4552A9CE70700BDAE96 /* network */,
+				F2881B4D2A9CE5FA00B88A59 /* cryptoDetails */,
+				F2881B4C2A9CE5BB00B88A59 /* cryptoLive */,
+				F2881B1B2A9CB97A00B88A59 /* AppDelegate.swift */,
+				F2881B1D2A9CB97A00B88A59 /* SceneDelegate.swift */,
+				F2881B212A9CB97A00B88A59 /* Main.storyboard */,
+				F2881B242A9CB97B00B88A59 /* Assets.xcassets */,
+				F2881B262A9CB97B00B88A59 /* LaunchScreen.storyboard */,
+				F2881B292A9CB97B00B88A59 /* Info.plist */,
+				F2881B3E2A9CD28F00B88A59 /* Utilities.swift */,
+			);
+			path = EVALIOS3;
+			sourceTree = "<group>";
+		};
+		F2881B4C2A9CE5BB00B88A59 /* cryptoLive */ = {
+			isa = PBXGroup;
+			children = (
+				F2881B1F2A9CB97A00B88A59 /* ViewController.swift */,
+				F2881B2F2A9CBA0600B88A59 /* CryptoTableViewCell.swift */,
+				F2881B302A9CBA0600B88A59 /* CryptoTableViewCell.xib */,
+			);
+			path = cryptoLive;
+			sourceTree = "<group>";
+		};
+		F2881B4D2A9CE5FA00B88A59 /* cryptoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F22AB4532A9CE69E00BDAE96 /* DetailsTableViewCell.xib */,
+				F2881B382A9CCCDC00B88A59 /* CryptoDetailsViewController.swift */,
+				F2881B3A2A9CD13900B88A59 /* DetailsTableViewCell.swift */,
+			);
+			path = cryptoDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2881B172A9CB97A00B88A59 /* EVALIOS3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2881B2C2A9CB97B00B88A59 /* Build configuration list for PBXNativeTarget "EVALIOS3" */;
+			buildPhases = (
+				F2881B142A9CB97A00B88A59 /* Sources */,
+				F2881B152A9CB97A00B88A59 /* Frameworks */,
+				F2881B162A9CB97A00B88A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVALIOS3;
+			packageProductDependencies = (
+				F2881B342A9CBE1D00B88A59 /* Alamofire */,
+				F2881B492A9CE1B300B88A59 /* AlamofireImage */,
+			);
+			productName = EVALIOS3;
+			productReference = F2881B182A9CB97A00B88A59 /* EVALIOS3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2881B102A9CB97A00B88A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F2881B172A9CB97A00B88A59 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F2881B132A9CB97A00B88A59 /* Build configuration list for PBXProject "EVALIOS3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2881B0F2A9CB97A00B88A59;
+			packageReferences = (
+				F2881B332A9CBE1D00B88A59 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F2881B482A9CE1B300B88A59 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = F2881B192A9CB97A00B88A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2881B172A9CB97A00B88A59 /* EVALIOS3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2881B162A9CB97A00B88A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2881B322A9CBA0600B88A59 /* CryptoTableViewCell.xib in Resources */,
+				F2881B452A9CDEDA00B88A59 /* CryptoImageTableViewCell.xib in Resources */,
+				F22AB4542A9CE69E00BDAE96 /* DetailsTableViewCell.xib in Resources */,
+				F2881B282A9CB97B00B88A59 /* LaunchScreen.storyboard in Resources */,
+				F2881B252A9CB97B00B88A59 /* Assets.xcassets in Resources */,
+				F2881B232A9CB97A00B88A59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2881B142A9CB97A00B88A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2881B392A9CCCDC00B88A59 /* CryptoDetailsViewController.swift in Sources */,
+				F2881B312A9CBA0600B88A59 /* CryptoTableViewCell.swift in Sources */,
+				F2881B372A9CBF1400B88A59 /* CryptoResponse.swift in Sources */,
+				F2881B202A9CB97A00B88A59 /* ViewController.swift in Sources */,
+				F2881B442A9CDEDA00B88A59 /* CryptoImageTableViewCell.swift in Sources */,
+				F2881B472A9CDEFA00B88A59 /* CryptoImageViewController.swift in Sources */,
+				F2881B1C2A9CB97A00B88A59 /* AppDelegate.swift in Sources */,
+				F2881B1E2A9CB97A00B88A59 /* SceneDelegate.swift in Sources */,
+				F2881B3F2A9CD28F00B88A59 /* Utilities.swift in Sources */,
+				F2881B3C2A9CD13900B88A59 /* DetailsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2881B212A9CB97A00B88A59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2881B222A9CB97A00B88A59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2881B262A9CB97B00B88A59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2881B272A9CB97B00B88A59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2881B2A2A9CB97B00B88A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2881B2B2A9CB97B00B88A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2881B2D2A9CB97B00B88A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVALIOS3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.valerianpt.EVALIOS3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2881B2E2A9CB97B00B88A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EVALIOS3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.valerianpt.EVALIOS3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2881B132A9CB97A00B88A59 /* Build configuration list for PBXProject "EVALIOS3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2881B2A2A9CB97B00B88A59 /* Debug */,
+				F2881B2B2A9CB97B00B88A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2881B2C2A9CB97B00B88A59 /* Build configuration list for PBXNativeTarget "EVALIOS3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2881B2D2A9CB97B00B88A59 /* Debug */,
+				F2881B2E2A9CB97B00B88A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2881B332A9CBE1D00B88A59 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F2881B482A9CE1B300B88A59 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2881B342A9CBE1D00B88A59 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2881B332A9CBE1D00B88A59 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F2881B492A9CE1B300B88A59 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2881B482A9CE1B300B88A59 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F2881B102A9CB97A00B88A59 /* Project object */;
+}
